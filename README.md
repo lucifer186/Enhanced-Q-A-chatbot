@@ -10,12 +10,12 @@ A Streamlit-powered Q&A chatbot application that leverages OpenAI's language mod
 ⚡ Real-time Responses: Instant AI-powered answers
 
 ## Code Architecture
-The application is built with the following components: \
+The application is built with the following components: 
 
 LangChain Integration: Uses ChatOpenAI for model interaction \
 Prompt Template: System message defines the assistant as helpful\
 Output Parser: String output parser for clean response formatting \
-Chain Pattern: Implements prompt|llm|output_parser chain structure \
+Chain Pattern: Implements prompt|llm|output_parser chain structure 
 
 ## Installation
 
@@ -28,14 +28,14 @@ Clone the repository
 ## Environment Setup (Optional for LangSmith tracking)
 Create a .env file: \
 Start the application \
-streamlit run app.py \
+streamlit run app.py 
 
 ## Configure in the sidebar:
 
 API Key: Enter your OpenAI API key (required) \
 Model Selection: Choose from available models \
 Temperature: Adjust response creativity (0.0-1.0) \
-Max Tokens: Set response length (50-300) \
+Max Tokens: Set response length (50-300) 
 
 
 ## Ask questions:
